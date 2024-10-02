@@ -22,3 +22,12 @@ body.greenScreen {
   background-color: #00ff00;
   background-image: none;
 }
+/* styles.css */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* Internet Explorer and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
